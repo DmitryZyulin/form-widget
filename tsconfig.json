@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "src/typings.d.ts"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "baseUrl": "src",
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
