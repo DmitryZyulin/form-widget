@@ -29,8 +29,8 @@ In order to embed the widget add the following snippet at any location on the ho
 During initialization you can pass additional configurations to widget like so:
 
 ```diff
--_hw('init');
-+_hw('init', { debug: true, locale: 'ru', themeColors: { background: 'green', font: 'red', button: 'purple' } });
+-fw('init');
++fw('init', { debug: true, locale: 'ru', themeColors: { background: 'green', font: 'red', button: 'purple' } });
 ```
 
 You can find a widget of configuration in `IWidgetConfiguration` interface.
