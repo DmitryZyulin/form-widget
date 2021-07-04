@@ -1,5 +1,16 @@
 # Form Widget
 
+## Develop
+
+The widget dev setup is similar to regular client application. To get started:
+
+```bash
+npm i
+npm dev
+```
+
+Open the browser at `localhost:3000` to see the demo
+
 ## Usage
 
 In order to embed the widget add the following snippet at any location on the hosting page:
@@ -23,14 +34,3 @@ During initialization you can pass additional configurations to widget like so:
 ```
 
 You can find a widget of configuration in `IWidgetConfiguration` interface.
-
-## Develop
-
-The widget dev setup is similar to regular client application. To get started:
-
-```bash
-npm i
-npm dev
-```
-
-Open the browser at `localhost:3000`
